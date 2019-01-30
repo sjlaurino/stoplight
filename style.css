@@ -1,9 +1,9 @@
 .pole{
-  height: 75px;
-  width: 40px;
+  height: 150px;
+  width: 50px;
   background-color: black;
   margin-left: 661px;
-  
+
 }
 
 .box{
@@ -14,7 +14,15 @@
   margin-top: 200px;
 }
 
-.red{
+.lights{
+    height: 100px;
+  width:100px;
+  border-radius:50%;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#red{
   height: 100px;
   width:100px;
   background-color:red;
@@ -23,7 +31,7 @@
   margin-top: 5px;
   
 }
-.yellow{
+#yellow{
    height: 100px;
   width:100px;
   background-color:yellow;
@@ -31,7 +39,7 @@
   margin-left: 10px;
   margin-top: 5px;
 }
-.green{
+#green{
    height: 100px;
   width:100px;
   background-color:green;
