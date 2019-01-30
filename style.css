@@ -11,6 +11,7 @@
   height:320px;
   background-color: black;
   margin: 0 auto;
+  padding-top: .5%;
   
 }
 
@@ -18,13 +19,10 @@
   height: 100px;
   width:100px;
   border-radius:50%;
-  margin-left: 10px;
-  margin-top: 5px;
+
 }
 
 #red{
-  height: 100px;
-  width:100px;
   background-color:red;
   border-radius:50%;
   margin-left: 10px;
@@ -32,18 +30,24 @@
   
 }
 #yellow{
-   height: 100px;
-  width:100px;
   background-color:yellow;
   border-radius:50%;
   margin-left: 10px;
   margin-top: 5px;
 }
 #green{
-   height: 100px;
-  width:100px;
   background-color:green;
   border-radius:50%;
   margin-left: 10px;
   margin-top:5px;
+}
+
+#red:hover{
+  box-shadow: 0 0 100px rgb(241, 86, 86);
+}
+#green:hover{
+  box-shadow: 0 0 100px lime;
+}
+#yellow:hover{
+  box-shadow: 0 0 100px yellow;
 }
