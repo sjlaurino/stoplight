@@ -19,7 +19,8 @@
   height: 100px;
   width:100px;
   border-radius:50%;
-
+  background-image: url(https://vignette.wikia.nocookie.net/blockate/images/5/54/Transparent_dots.png/revision/latest?cb=20181005064536);
+  background-size: contain; 
 }
 
 #red{
